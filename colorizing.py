@@ -12,7 +12,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 import tensorflow as tf
-print('Tensorflow Version: {:s}\n********************'.format(tf.__version__))
+print('Tensorflow Version: {}\n********************'.format(tf.__version__))
 
 # !nvidia-smi
 
